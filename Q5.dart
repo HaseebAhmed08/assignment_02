@@ -1,15 +1,22 @@
-// void main() { 
-  
-//   Map<String, String> name = {
-//  "Ali": "05784", "Ahmed": "6485", "Jameel": "3646", "Bilal": "78569" };
-//   List<String> homeNumbers = name.keys.where((key) => key.length == 4).toList(); 
+void main() {
 
-// print(homeNumbers); 
-
-// }
+//    Q.5: Create a map with name, phone keys and store some values to it. Use
+//     where to find all keys that have length 4.
 
 
+  Map<String, String> names = {
+    "Alim": "0584",
+    "Ahmd": "6485",
+    "Jameel": "3646",
+    "Bilal": "78569"
+  };
 
+  List<String> homeNumbers =
+      names.keys.where((key) => key.length == 4).toList();
 
+  print(homeNumbers);
 
-// Q5,Q10,Q11,Q13
+  ///// Original
+
+  print("Original : $names");
+}
