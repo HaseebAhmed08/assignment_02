@@ -1,12 +1,12 @@
-void main(){
+void main() {
+// Q.10: Write a Dart code that takes in a list of strings and removes any duplicate
 
+// elements, returning a new list without duplicates. The order of elements in the
+// new list should be the same as in the original list.
 
-  List numbers = [1,2, 1,3, 4,6, 5,8, 7,6,4, 6,6, 4,7, 3,5];
+  List numbers = ["ali", "ahmed", "ali", "kamran"];
 
-  var withOutDuplicate=numbers.toSet().toList();
+  var withOutDuplicate = numbers.toSet().toList();
 
   print(withOutDuplicate);
-
-
-
 }
