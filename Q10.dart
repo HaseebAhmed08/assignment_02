@@ -4,9 +4,9 @@ void main() {
 // elements, returning a new list without duplicates. The order of elements in the
 // new list should be the same as in the original list.
 
-  List numbers = ["ali", "ahmed", "ali", "kamran"];
+  List names = ["ali", "ahmed", "ali", "kamran"];
 
-  var withOutDuplicate = numbers.toSet().toList();
+  var withOutDuplicate = names.toSet().toList();
 
   print(withOutDuplicate);
 }
