@@ -7,7 +7,6 @@ void main() {
   Map world = {
     "country": {
       "Pakistan": {
-        "country": "pakistan",
         "capital": "Islamabad",
         "currency": "Rupee",
         "language": "Ürdu"
