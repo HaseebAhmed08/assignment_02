@@ -10,5 +10,10 @@ void main() {
     "Anas"
   ];
 // printed  List
-  print(names);
+  names.forEach(
+    (element) {
+      print(element);
+    },
+  );
+
 }
